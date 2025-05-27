@@ -1,0 +1,44 @@
+.banner__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner__imagem {
+    height: 600px;
+    width: 100%;
+    background: var(--azul-degrade)  
+}
+
+.banner__secundario {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid;
+    border-color: var(--azul);
+    padding: 40px;
+    
+}
+
+.banner__titulo__indexação {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner__texto__indexação {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.indexação, .qualis {
+    text-align: center;
+    border-right: 3px solid;
+}
+
+.nossa__história {
+    padding: 1em;
+    border: 5px solid;
+    padding-bottom: 1em;
+    color: var(--azul);
+}
+
